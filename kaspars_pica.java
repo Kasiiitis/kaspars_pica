@@ -44,6 +44,11 @@ public class kaspars_pica {
 		String piedevasStr = (String) JOptionPane.showInputDialog(null, "Izvçlieties savas piedevas!(0 - bez piedevâm, 1 - sçnes,2-olîve, 3-ananâs, 4-ðíiníis)");
 		piedevas = Integer.parseInt(piedevasStr);
 		switch(piedevas) {
+		case 1: piedevasCena = 1.99; break;
+		case 2: piedevasCena = 2.99; break;
+		case 3: piedevasCena = 1.39; break;
+		case 4: piedevasCena = 3.49; break;
+		}
 	}
 
 }
