@@ -35,6 +35,10 @@ public class kaspars_pica {
 		int picuSkaits;
 		picuSkaits = Integer.parseInt(JOptionPane.showInputDialog("Cik daudz picu jus velaties?"));
 		System.out.println(picuSkaits);
+		
+		double piedevasCena = 0;
+		double summa = picuSkaits*izmeraCena+piedevasCena;
+		JOptionPane.showMessageDialog(null, "Perkot " +picuSkaits+ "  " +picasIzmer+ "cm picas bûs jâmaksâ Eur" +summa, "Info",JOptionPane.WARNING_MESSAGE);
 	}
 
 }
