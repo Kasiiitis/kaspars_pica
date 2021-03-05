@@ -49,6 +49,8 @@ public class kaspars_pica {
 		case 3: piedevasCena = 1.39; break;
 		case 4: piedevasCena = 3.49; break;
 		}
+		summa = picuSkaits*izmeraCena+piedevasCena;
+		JOptionPane.showMessageDialog(null, "Perkot " +picuSkaits+ "  " +picasIzmer+ "cm picas ar piedevâm bûs jâmaksâ Eur" +summa, "Info", JOptionPane.WARNING_MESSAGE);
 	}
 
 }
