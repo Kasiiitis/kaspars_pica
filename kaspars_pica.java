@@ -55,6 +55,12 @@ public class kaspars_pica {
 		int piegade;
 		String piegadeStr = (String) JOptionPane.showInputDialog(null, "Izvçlieties 1, ja jums nevajag piegâdi uz mâjâm/ izvçlieties 2, ja jums vajag piegâdi uz mâjâm.");
 		piegade = Integer.parseInt(piegadeStr);
+		switch(piegade) {
+		case 1: piegadesCena = 0.00; break;
+		case 2: piegadesCena = 3.99; break;
 	}
+		summa = picuSkaits*izmeraCena+piedevasCena+piegadesCena;
+		JOptionPane.showMessageDialog(null, "Perkot " +picuSkaits+ "  " +picasIzmer+ "cm picas ar piedevâm un visu piegâdi,k bûs jâmaksâ Eur" +summa, "Info", JOptionPane.WARNING_MESSAGE);
+	
 
 }
