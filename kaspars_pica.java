@@ -30,6 +30,11 @@ public class kaspars_pica {
 		case 30: izmeraCena = 13.99; break;
 		case 50: izmeraCena = 17.99; break;
 		}
+		System.out.println(picasIzmer);
+		System.out.println(izmeraCena);
+		int picuSkaits;
+		picuSkaits = Integer.parseInt(JOptionPane.showInputDialog("Cik daudz picu jus velaties?"));
+		System.out.println(picuSkaits);
 	}
 
 }
